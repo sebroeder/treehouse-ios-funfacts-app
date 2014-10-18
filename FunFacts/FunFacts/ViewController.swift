@@ -11,13 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var funFactLabel: UILabel!
+    @IBOutlet weak var funFactButton: UIButton!
 
     var factBook = FactBook()
+    var colorWheel = ColorWheel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        funFactLabel.text = factBook.nextFunFact()
-
+        displayNextFact()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,8 +27,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAnotherFunFact() {
+        displayNextFact()
+    }
+
+    func displayNextFact() {
+        let color = colorWheel.nextColor()
+        view.backgroundColor = color
+        funFactButton.tintColor = color
         funFactLabel.text = factBook.nextFunFact()
     }
 
 }
-

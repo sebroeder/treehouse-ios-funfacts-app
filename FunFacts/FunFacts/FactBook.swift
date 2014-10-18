@@ -26,6 +26,7 @@ class FactBook {
 
     func nextFunFact() -> String {
         let funFact = funFacts[factIndex]
+        // TODO: Why does this only work in a class, not in a struct?
         factIndex = (factIndex + 1) % funFacts.count
         return funFact
     }
