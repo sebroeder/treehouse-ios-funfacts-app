@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var funFactLabel: UILabel!
 
+    var factBook = FactBook()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        funFactLabel.text = factBook.nextFunFact()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +26,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAnotherFunFact() {
-        funFactLabel.text = "Another fun fact!"
+        funFactLabel.text = factBook.nextFunFact()
     }
 
 }
