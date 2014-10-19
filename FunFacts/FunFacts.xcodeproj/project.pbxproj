@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074CC8A119F2D39B002742A9 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CC8A019F2D39B002742A9 /* FactBook.swift */; };
+		074CC8A319F300A8002742A9 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074CC8A219F300A8002742A9 /* ColorWheel.swift */; };
 		07B705AC19F1BEBE00612EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B705AB19F1BEBE00612EA5 /* AppDelegate.swift */; };
 		07B705AE19F1BEBE00612EA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B705AD19F1BEBE00612EA5 /* ViewController.swift */; };
 		07B705B119F1BEBE00612EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B705AF19F1BEBE00612EA5 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		074CC8A019F2D39B002742A9 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		074CC8A219F300A8002742A9 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 		07B705A619F1BEBE00612EA5 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B705AA19F1BEBE00612EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07B705AB19F1BEBE00612EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				07B705AB19F1BEBE00612EA5 /* AppDelegate.swift */,
 				07B705AD19F1BEBE00612EA5 /* ViewController.swift */,
+				074CC8A019F2D39B002742A9 /* FactBook.swift */,
+				074CC8A219F300A8002742A9 /* ColorWheel.swift */,
 				07B705AF19F1BEBE00612EA5 /* Main.storyboard */,
 				07B705B219F1BEBE00612EA5 /* Images.xcassets */,
 				07B705B419F1BEBE00612EA5 /* LaunchScreen.xib */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074CC8A119F2D39B002742A9 /* FactBook.swift in Sources */,
 				07B705AE19F1BEBE00612EA5 /* ViewController.swift in Sources */,
 				07B705AC19F1BEBE00612EA5 /* AppDelegate.swift in Sources */,
+				074CC8A319F300A8002742A9 /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				07B705C719F1BEBE00612EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07B705C819F1BEBE00612EA5 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				07B705CA19F1BEBE00612EA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
